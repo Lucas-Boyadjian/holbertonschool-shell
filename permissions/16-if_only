@@ -1,2 +1,2 @@
 #!/bin/bash
-if u=guillaume then chmod -R vincent:guillaume hello fi
+if [u=guillaume] then chown -R vincent:guillaume hello fi
