@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --from = vincent:guillaume hello
+if u=guillaume then chmod -R vincent:guillaume hello fi
