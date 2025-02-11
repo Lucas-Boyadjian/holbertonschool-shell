@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -Rf io_redirections_and_filters *.js
+rm -f *.js
