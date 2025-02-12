@@ -1,3 +1,2 @@
 #!/bin/bash
-export TRUEKNOWLEDGE=1209
-resultat=$(($TRUEKNOWLEDGE+128))
+echo "Resultat est" $(( ($TRUEKNOWLEDGE+128)
