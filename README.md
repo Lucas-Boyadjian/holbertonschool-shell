@@ -1,59 +1,47 @@
 # Holberton School Shell
 
-This repository contains my shell projects for Holberton School, focusing on learning and mastering Bash shell scripting concepts and commands.
+This repository contains my shell projects for Holberton School. The goal of these projects is to master the basics of Bash scripting, Unix command line tools, file management, permissions, input/output redirections, and shell environment configuration.
 
 ## Repository Structure
 
-The repository is organized into four main directories, each focusing on different shell concepts:
+- `basics/`  
+  Scripts covering fundamental shell commands: navigation, file and directory management, and basic Bash usage.
 
-### [Basics](basics)
-Introduction to fundamental shell commands:
-- File navigation (`pwd`, `ls`, `cd`)
-- File manipulation (`touch`, `rm`, `cp`, `mv`)
-- Directory management (`mkdir`, `rmdir`)
-- Working with symbolic links
-- File type identification
+- `permissions/`  
+  Scripts focused on Unix file permissions, ownership, and related commands.
 
-### [Permissions](permissions)
-Working with Unix file permissions and ownership:
-- Changing user identity (`su`)
-- Checking user and group IDs (`whoami`, `id`)
-- Managing file ownership (`chown`, `chgrp`)
-- Setting file permissions (`chmod`)
-- Creating files and directories with specific permissions
+- `io_redirections_and_filters/`  
+  Scripts demonstrating input/output redirections, pipes, and text processing filters.
 
-### [I/O Redirections and Filters](io_redirections_and_filters)
-Manipulating input/output and processing text:
-- Standard input/output redirection (`>`, `>>`, `<`)
-- Displaying file content (`cat`, `head`, `tail`)
-- Text processing (`sort`, `uniq`, `grep`, `tr`)
-- Creating files with special characters
-- Displaying and manipulating specific lines
+- `init_files_variables_and_expansions/`  
+  Scripts about shell initialization files, environment variables, and shell expansions.
 
-### [Init Files, Variables and Expansions](init_files_variables_and_expansions)
-Working with shell environment and variables:
-- Creating aliases
-- Setting local and global variables
-- Understanding shell initialization files
-- Managing PATH variable
-- Working with arithmetic operations
-- Number base conversions (binary, decimal, hexadecimal)
-- Formatting output with `printf`
-
-## Skills Demonstrated
+## Key Concepts
 
 - Bash scripting fundamentals
 - File and directory manipulation
-- Permission management
-- Command chaining and piping
-- Text processing and filtering
-- Environment configuration
-- Variable manipulation
+- Permission and ownership management
+- Input/output redirection and piping
+- Text processing with standard Unix tools
+- Shell environment configuration and variable management
 
 ## Usage
 
-All scripts are executable Bash scripts. To run a script:
+To run any script, make sure it is executable:
 
 ```bash
+chmod +x script_name
 ./script_name
+```
 
+Replace `script_name` with the actual file name you want to execute.
+
+## Requirements
+
+- All scripts are written for Bash and tested on Ubuntu.
+- Each script is self-contained and performs a single task.
+- Scripts are intended for educational purposes and follow Holberton School guidelines.
+
+## Author
+
+Lucas - Holberton School Student
